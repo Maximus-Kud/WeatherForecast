@@ -1,0 +1,16 @@
+services:
+  weatherforecast.api:
+    image: ${DOCKER_REGISTRY-}weatherforecastapi
+    build:
+      context: .
+      dockerfile: WeatherForecast.API/Dockerfile
+
+
+  weatherforecast.web:
+    build:
+      context: ./WeatherForecast.Web
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development

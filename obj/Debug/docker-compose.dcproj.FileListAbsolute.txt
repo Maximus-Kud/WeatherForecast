@@ -1,0 +1,15 @@
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\WeatherForecast.API.deps.json
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\WeatherForecast.API.runtimeconfig.json
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\appsettings.Development.json
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\appsettings.json
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\WeatherForecast.API.staticwebassets.endpoints.json
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\WeatherForecast.API.exe
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\WeatherForecast.API.dll
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\Microsoft.OpenApi.dll
+D:\Visual Studio Projects\Docker\WeatherForecast\bin\Debug\WeatherForecast.API.pdb
+D:\Visual Studio Projects\Docker\WeatherForecast\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Visual Studio Projects\Docker\WeatherForecast\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Docker\WeatherForecast\obj\Debug\docker-c.35A3FFBA.Up2Date
