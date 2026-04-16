@@ -1,0 +1,11 @@
+# Игнорировать файлы и папки Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Игнорировать временные файлы
+*.user
+*.userosscache
+*.suo
+*.slnx
+*.dbmdl
