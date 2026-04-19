@@ -2,11 +2,16 @@ services:
   weatherforecast.api:
     image: ${DOCKER_REGISTRY-}weatherforecastapi
     build:
-      context: .
-      dockerfile: WeatherForecast.API/Dockerfile
+      context: ./WeatherForecast.API
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
 
 
   weatherforecast.web:
+    image: ${DOCKER_REGISTRY-}weatherforecastweb
     build:
       context: ./WeatherForecast.Web
       dockerfile: Dockerfile
@@ -14,3 +19,18 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=development
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=VeryStrongPassword123!
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+
+volumes:
+  mssql_data:

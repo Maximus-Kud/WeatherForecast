@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeatherForecast.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eca91934d7ecf7fdb12efb7cd5f7d988f5eb58a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeatherForecast.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeatherForecast.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

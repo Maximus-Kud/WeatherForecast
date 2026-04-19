@@ -15,7 +15,7 @@ services:
       - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
     volumes:
       - D:\Visual Studio Projects\Docker\WeatherForecast\WeatherForecast.API:/app:rw
-      - D:\Visual Studio Projects\Docker\WeatherForecast:/src:rw
+      - D:\Visual Studio Projects\Docker\WeatherForecast\WeatherForecast.API:/src:rw
       - C:\Users\Maximus\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Maximus\.nuget\packages:/.nuget/packages:ro
       - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
